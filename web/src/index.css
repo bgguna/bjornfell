@@ -39,3 +39,7 @@ ul.navigation li a {
 .content li {
     margin-bottom: 10px;
 }
+
+.active {
+    background-color: #696969;
+}

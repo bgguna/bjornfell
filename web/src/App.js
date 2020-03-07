@@ -17,7 +17,7 @@ class App extends Component {
                         <h1>Ben Goro Photography</h1>
                     </div>
                     <ul className='navigation'>
-                        <li><NavLink to='/'>Home</NavLink></li>
+                        <li><NavLink exact to='/'>Home</NavLink></li>
                         <li><NavLink to='/about'>About</NavLink></li>
                         <li><NavLink to='/contact'>Contact</NavLink></li>
                     </ul>
