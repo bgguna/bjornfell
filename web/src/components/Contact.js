@@ -2,7 +2,7 @@ import React, {
     Component
 } from 'react';
 import axios from 'axios';
-import Form from 'react-bootstrap/Form'; 
+import Form from 'react-bootstrap/Form';
 
 class Contact extends Component {
 
@@ -47,10 +47,10 @@ class Contact extends Component {
                 </div>
 
                 <div>
-                    <Form id='contact-form'>
+                    <Form id='contact-form' onSubmit={this.handleSubmit.bind(this)} method="POST">
                         <Form.Group controlId="name">
                             <Form.Label>name</Form.Label>
-                        <Form.Control type="text" placeholder="enter name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+                            <Form.Control type="text" placeholder="enter name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
                         </Form.Group>
                         <Form.Group controlId="email">
                             <Form.Label>email</Form.Label>
@@ -60,7 +60,7 @@ class Contact extends Component {
                             <Form.Label>message</Form.Label>
                             <Form.Control type="text" placeholder="enter message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
                         </Form.Group>
-           
+
                         <button type='submit' className='btn btn-primary'>submit</button>
                     </Form>
                 </div>
