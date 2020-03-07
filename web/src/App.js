@@ -13,7 +13,9 @@ class App extends Component {
         return (
             <HashRouter>
                 <div>
-                    <h1>Ben Goro Photography</h1>
+                    <div className='title'>
+                        <h1>Ben Goro Photography</h1>
+                    </div>
                     <ul className='navigation'>
                         <li><NavLink to='/'>Home</NavLink></li>
                         <li><NavLink to='/about'>About</NavLink></li>
@@ -21,7 +23,7 @@ class App extends Component {
                     </ul>
 
                     <div className='content'>
-                        <Route path='/' component={Home}/>
+                        <Route exact path='/' component={Home}/>
                         <Route path='/about' component={About}/>
                         <Route path='/contact' component={Contact}/>
                     </div>
