@@ -1,10 +1,10 @@
 package main
 
 import (
+	"bjornfell/contact"
 	"log"
 	"os"
 
-	"github.com/bgguna/benxgoro/server/contact"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )
@@ -15,7 +15,7 @@ func init() {
 }
 
 func main() {
-	log.Println("benxgoro server started...")
+	log.Println("BjornFell Server started...")
 
 	router := gin.Default()
 	router.Use(cors.Default())

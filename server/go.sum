@@ -1,5 +1,3 @@
-github.com/bgguna/benxgoro v0.0.0-20200410121031-a43ce959f50c h1:R1wBsrlTs142WEn7SlpQPpLGujRFFUR1MzKYrst1bJE=
-github.com/bgguna/benxgoro v0.0.0-20200410121031-a43ce959f50c/go.mod h1:u5KAHgnt7wq2TRR1lPaPKviDwa8E8+ZliwLBxXkxsSs=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gin-contrib/cors v1.3.1 h1:doAsuITavI4IOcd0Y19U4B+O0dNWihRyX//nn4sEmgA=

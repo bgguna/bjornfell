@@ -2,7 +2,7 @@
 current_dir	=	${PWD}
 bin_dir		=	${current_dir}/bin
 out_dir		=	${current_dir}/out
-binary		=	BjornFell Server
+binary		=	BjornFellServer
 project		=	bjornfell
 main		=	main.go
 coverage	=	coverage.out

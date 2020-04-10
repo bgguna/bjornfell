@@ -20,7 +20,7 @@ type contactMessage struct {
 // HandleNewMsg handles incoming messages from the Contact tab.
 func HandleNewMsg() func(context *gin.Context) {
 	return func(context *gin.Context) {
-		db, _ := sql.Open("sqlite3", "./storage/benxgoro.db")
+		db, _ := sql.Open("sqlite3", "./storage/bjornfell.db")
 		message := contactMessage{}
 		rawContextData, err := context.GetRawData()
 		if err != nil {
